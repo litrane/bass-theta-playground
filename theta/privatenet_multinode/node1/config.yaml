@@ -13,8 +13,7 @@ rpc:
   port: 16900
   enabled: true
 log:
-  #levels: "*:info"
-  levels: "*:debug"
+  levels: "*:info"
 subchain:
   register: "0xbD24833ace144eFc04eD2b39f0021D1910f054ad"
   erc20: "0xBf0b860BdBf712fa88DFB81Efe1BD8353437435B"

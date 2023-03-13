@@ -6,15 +6,14 @@ p2p:
   port: 12100
   seeds: 10.10.1.2:12100,10.10.1.3:12100,10.10.1.4:12100,10.10.1.5:12100
   seedPeerOnlyOutbound: true
-rpc:
-  port: 16900
-  enabled: true
 consensus:
   minBlockInterval: 500
   maxEpochLength: 1000
+rpc:
+  port: 16900
+  enabled: true
 log:
-  #levels: "*:info"
-  levels: "*:debug"
+  levels: "*:info"
 subchain:
   register: "0xbD24833ace144eFc04eD2b39f0021D1910f054ad"
   erc20: "0xBf0b860BdBf712fa88DFB81Efe1BD8353437435B"
